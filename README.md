@@ -18,5 +18,5 @@ Coming soon...
 
 ### Sketches
 
-< img src="assets/Self portrait.png">
+<img src="./assets/Self portrait.png">
 Note: this can go in the about me section

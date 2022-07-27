@@ -15,3 +15,8 @@ As this is a recreation, the criteria will remain the same - landing page with n
 ### Checklist and Mindmap
 
 Coming soon...
+
+### Sketches
+
+< img src="assets/Self portrait.png">
+Note: this can go in the about me section

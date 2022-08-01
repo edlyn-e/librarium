@@ -1,0 +1,33 @@
+.Footer {
+    height: 20vh;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+
+    &__Section {
+        font-size: small;
+        width: 250px;
+
+        ul {
+            list-style: none;
+        }
+
+        li:first-of-type {
+            font-weight: bold;
+        }
+    }
+
+    &__Footnote {
+        min-width: 98vw;
+        text-align: center;
+        font-size: small;
+    }
+}

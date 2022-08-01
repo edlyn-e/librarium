@@ -10,7 +10,15 @@ As I grow as an artist and a junior software developer, the goal for this projec
 
 ### Criteria
 
-As this is a recreation, the criteria will remain the same - landing page with name and title - about page - tech badges of acquired skills - project cards with further info modal - contact page with my links - email - Github profile - LinkedIn profile
+As this is a recreation, the criteria will remain the same 
+- landing page with name and title 
+- about page 
+- tech badges of acquired skills 
+- project cards with further info modal 
+- contact page with my links 
+  - email 
+  - Github profile 
+  - LinkedIn profile
 
 ### Checklist and Mindmap
 

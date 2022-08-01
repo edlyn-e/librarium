@@ -1,0 +1,23 @@
+.TechStacks {
+    min-height: 68.7vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    ul {
+        list-style: none;
+        padding-left: 0;
+    }
+    li {
+        margin: 20px;
+    }
+
+    &__Header {
+        font-size: x-large;
+    }
+
+    &__Stack {
+        display: flex;
+    }
+}

@@ -1,0 +1,11 @@
+.Contact {
+    min-height: 68.7vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    &__Header {
+        font-size: large;
+    }
+}

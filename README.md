@@ -10,19 +10,29 @@ As I grow as an artist and a junior software developer, the goal for this projec
 
 ### Criteria
 
-As this is a recreation, the criteria will remain the same 
-- landing page with name and title 
-- about page 
-- tech badges of acquired skills 
-- project cards with further info modal 
-- contact page with my links 
-  - email 
-  - Github profile 
-  - LinkedIn profile
+As this is a recreation, the criteria will remain the same:
+
+-   landing page with name and title
+-   about page
+-   tech badges of acquired skills
+-   project cards with further info modal
+-   contact page with my links
+    -   email
+    -   Github profile
+    -   LinkedIn profile
 
 ### Checklist and Mindmap
 
-Coming soon...
+-   Create a firestore database of project data with these keys:
+
+    -   Project name
+    -   Description
+    -   Tech stacks
+    -   Links to code source and live version
+
+-   Create a form to update the database when new projects are created and developed with inputs for the keys listed above.
+
+_more coming soon..._
 
 ### Sketches
 

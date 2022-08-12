@@ -1,4 +1,4 @@
-// importing software
+// library imports
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 // local folders
@@ -9,6 +9,7 @@ import Landing from "./containters/Landing/Landing";
 import { TechStacks } from "./containters/TechStacks/TechStacks";
 import Projects from "./containters/Projects";
 import Contact from "./containters/Contact/Contact";
+import Resume from "./containters/Resume/Resume";
 
 // styles
 import styles from "./App.module.scss";
@@ -24,6 +25,7 @@ function App() {
                     <Route path="/tech-stacks" element={<TechStacks />} />
                     <Route path="/projects" element={<Projects />} />
                     <Route path="/contact-me" element={<Contact />} />
+                    <Route path="/resume" element={<Resume />} />
                 </Routes>
                 <Footer />
             </BrowserRouter>

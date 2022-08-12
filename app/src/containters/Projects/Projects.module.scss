@@ -2,10 +2,15 @@
     min-height: 67.3vh;
 
     &__Header {
-        font-size: large;
+        font-size: x-large;
+        text-align: center;
     }
 
     &__Project_Tiles {
+        width: 85%;
+        margin: 70px auto;
         display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 }

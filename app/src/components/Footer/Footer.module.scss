@@ -1,33 +1,53 @@
 .Footer {
-    height: 20vh;
+    min-height: 20vh;
     padding: 20px;
     background-color: black;
     color: white;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    font-size: small;
+    margin: auto;
 
     a {
         text-decoration: none;
         color: white;
+        font-size: large;
+        margin: 5px;
     }
 
     &__Section {
-        font-size: small;
-        width: 250px;
+        width: 260px;
+        margin: 0px 30px;
 
         ul {
             list-style: none;
+            padding-left: 0;
         }
 
         li:first-of-type {
             font-weight: bold;
+            margin-bottom: 5px;
         }
     }
 
     &__Footnote {
-        min-width: 98vw;
+        min-width: 80vw;
         text-align: center;
-        font-size: small;
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .Footer {
+        justify-content: center;
+        &__Section {
+            font-size: small;
+            margin: 0px 10px;
+        }
+
+        &__Footnote {
+            font-size: smaller;
+        }
     }
 }

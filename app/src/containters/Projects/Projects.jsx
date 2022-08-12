@@ -1,6 +1,8 @@
-import React from "react";
-import ProjectCard from "../../components/ProjectCard/ProjectCard";
+// styling
 import styles from "./Projects.module.scss";
+
+// local pages
+import ProjectCard from "../../components/ProjectCard/ProjectCard";
 
 const Projects = () => {
     return (

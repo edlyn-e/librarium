@@ -1,21 +1,52 @@
-import React from "react";
+// styling
 import styles from "./ProjectCard.module.scss";
+
+// server
+import projectList from "../../server/projects";
+
+// library imports
+import { FaCode, FaRocket } from "react-icons/fa";
 
 const ProjectCard = () => {
     return (
-        <div className={styles.ProjectCard}>
-            <h1 className={styles.ProjectCard__Header}>
-                My Projects will go here
-            </h1>
-            <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Consequuntur incidunt ducimus laudantium iure dolorem, itaque,
-                et, praesentium asperiores porro suscipit id commodi? Libero
-                accusantium suscipit perspiciatis minus, commodi nihil laborum.
-            </p>
-            <a href="#">code</a>
-            <a href="#">live</a>
-        </div>
+        <>
+            {projectList.map((project) => {
+                const placeholder =
+                    "https://www.cera.org.au/wp-content/uploads/2021/06/placeholder-images-image_large.png";
+
+                return (
+                    <div className={styles.ProjectCard} key={project.title}>
+                        <h1 className={styles.ProjectCard__Header}>
+                            {project.title}
+                        </h1>
+                        <img
+                            className={styles.ProjectCard__Image}
+                            src={project.image ? project.image : placeholder}
+                            alt={`${project.title}`}
+                        />
+                        <p className={styles.ProjectCard__Description}>
+                            {project.description}
+                        </p>
+                        <section>
+                            <p>
+                                Tech Stack: <br />
+                                {project.techStacks.join(" ")}
+                            </p>
+                        </section>
+
+                        <section className={styles.ProjectCard__Links}>
+                            <a href={project.links.code}>
+                                <FaCode />
+                            </a>
+
+                            <a href="">
+                                <FaRocket />
+                            </a>
+                        </section>
+                    </div>
+                );
+            })}
+        </>
     );
 };
 

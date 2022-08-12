@@ -19,6 +19,9 @@ const Nav = () => {
                 <NavLink to="/projects" className={styles.Nav__Links}>
                     Projects
                 </NavLink>
+                {/* <NavLink to="/resume" className={styles.Nav__Links}>
+                    Resume
+                </NavLink> */}
                 <NavLink to="/contact-me" className={styles.Nav__Links}>
                     Contact
                 </NavLink>

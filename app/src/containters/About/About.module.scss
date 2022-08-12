@@ -1,7 +1,7 @@
 .About {
     min-height: 68.7vh;
     display: flex;
-
+    flex-wrap: wrap;
     justify-content: center;
 
     img {
@@ -16,5 +16,19 @@
     &__Section {
         width: 450px;
         align-self: center;
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .About {
+        img {
+            height: 250px;
+            width: 250px;
+        }
+
+        &__Section {
+            margin: 0vh 3vh;
+        }
     }
 }

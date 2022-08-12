@@ -1,0 +1,27 @@
+.Resume {
+    min-height: 66.7vh;
+
+    &__Header {
+        text-align: center;
+    }
+
+    &__Work_Experience {
+        margin: 0vh auto;
+        width: 900px;
+    }
+
+    &__Experience {
+        display: flex;
+        align-items: center;
+    }
+
+    &__Logo {
+        height: 90px;
+        width: 90px;
+        object-fit: contain;
+    }
+
+    &__Experience_Text {
+        margin: 0vh 2vh;
+    }
+}

@@ -6,3 +6,5 @@ const Form = () => {
 };
 
 export default Form;
+
+// can use Formspree for form submissions: https://formspree.io/

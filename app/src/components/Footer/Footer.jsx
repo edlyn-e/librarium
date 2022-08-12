@@ -1,75 +1,85 @@
-import React from "react";
+// styling
 import styles from "./Footer.module.scss";
 
+// library imports
+import { FaGithub, FaLinkedin, FaRegEnvelope } from "react-icons/fa";
+
 const Footer = () => {
+    const date = new Date();
+    let day = date.getDate();
+    let month = date.getMonth() + 1;
+    let year = date.getFullYear();
+
     return (
         <div className={styles.Footer}>
             <section className={styles.Footer__Section}>
                 <ul>
                     <li>Work History</li>
-                    <li>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Corporis, nisi officia. Earum qui reprehenderit
-                        voluptatem eos, minima ut nam est.
-                    </li>
+                    <li>_nology &#183; Junior Software Developer</li>
+                    <li>kikki.K &#183; 3IC Team Member</li>
+                    <li>Kick 'N' Box &#183; Fitness Instructor/Receptionist</li>
+                    <li>Kmart &#183; Retail Assistant</li>
+                    <li>Intern &#183; Tamago DB</li>
                 </ul>
             </section>
+
             <section className={styles.Footer__Section}>
                 <ul>
-                    <li>Random stuff</li>
-                    <li>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Corporis, nisi officia. Earum qui reprehenderit
-                        voluptatem eos, minima ut nam est.
-                    </li>
+                    <li>My most recent projects: </li>
+                    <li>Calculator &#183; JavaScript Calculator</li>
+                    <li>Morse Code Translator &#183; JavaScript Translator</li>
+                    <li>Opus Invenire &#183; Google Books API</li>
+                    <li>Shibui &#183; eCommerce Website</li>
                 </ul>
             </section>
+
             <section className={styles.Footer__Section}>
-                {/* TODO: put actual icons in this section */}
                 <ul>
-                    <li>My favourite projects: </li>
-                    <li>Project 1</li>
-                    <li>Project 2</li>
-                    <li>Project 3</li>
+                    <li>Games I'm loving right now</li>
+                    <li>Final Fantasy XIV</li>
+                    <li>Travellers' Rest</li>
+                    <li>Dragon Age: Inquisition</li>
                 </ul>
             </section>
+
             <section className={styles.Footer__Section}>
                 <ul>
                     <li>Let's get connected!</li>
-                    <li>
-                        <a
-                            href="https://github.com/edlyn-e"
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-                            Github
-                        </a>
-                    </li>
-                    <li>
-                        <a
-                            href="mailto: edlyn.evangelista@outlook.com"
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-                            Email
-                        </a>
-                    </li>
-                    <li>
-                        <a
-                            href="https://www.linkedin.com/in/edlyn-evangelista/"
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-                            LinkedIn
-                        </a>
-                    </li>
+
+                    <a
+                        href="https://github.com/edlyn-e"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        <FaGithub />
+                    </a>
+
+                    <a
+                        href="mailto: edlyn.evangelista@outlook.com"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        <FaRegEnvelope />
+                    </a>
+
+                    <a
+                        href="https://www.linkedin.com/in/edlyn-evangelista/"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        <FaLinkedin />
+                    </a>
+                </ul>
+
+                <ul>
+                    <li>Today is: {`${day} / ${month} / ${year}`}</li>
                 </ul>
             </section>
             <section className={styles.Footer__Footnote}>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam
-                accusantium ut perferendis, cum deserunt adipisci, minima maxime
-                voluptatem iusto aperiam id cumque. Rerum, esse enim. Sed ea
-                fugiat iure odio.
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Dolorum architecto aliquid nesciunt veniam sequi laboriosam ab
+                natus id numquam. Quibusdam labore ratione delectus, officia
+                nobis quaerat sequi voluptatum doloremque et.
             </section>
         </div>
     );

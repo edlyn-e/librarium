@@ -20,7 +20,7 @@ function App() {
             <BrowserRouter>
                 <Nav />
                 <Routes>
-                    <Route path="/" element={<Landing />} />
+                    <Route path="/librarium" element={<Landing />} />
                     <Route path="/about-me" element={<About />} />
                     <Route path="/tech-stacks" element={<TechStacks />} />
                     <Route path="/projects" element={<Projects />} />

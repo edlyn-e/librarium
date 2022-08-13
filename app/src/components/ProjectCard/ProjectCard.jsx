@@ -39,7 +39,8 @@ const ProjectCard = () => {
                                 <FaCode />
                             </a>
 
-                            <a href="">
+                            {/* This will be replaced with the live version once the projects have been deployed */}
+                            <a href={project.links.code}>
                                 <FaRocket />
                             </a>
                         </section>

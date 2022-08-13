@@ -9,7 +9,7 @@ const Nav = () => {
                 edlyn-e
             </NavLink>
 
-            <section className={styles.Nav__Menu}>
+            <nav className={styles.Nav__Menu}>
                 <NavLink to="/about-me" className={styles.Nav__Links}>
                     About me
                 </NavLink>
@@ -25,7 +25,7 @@ const Nav = () => {
                 <NavLink to="/contact-me" className={styles.Nav__Links}>
                     Contact
                 </NavLink>
-            </section>
+            </nav>
         </div>
     );
 };

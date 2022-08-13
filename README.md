@@ -38,3 +38,6 @@ _more coming soon..._
 
 <img src="./assets/Self portrait.png">
 Note: this can go in the about me section
+
+<img src="./assets/paperplane.png" />
+Note: this one can go into the contact section

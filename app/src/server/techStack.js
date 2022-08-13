@@ -6,6 +6,8 @@ import {
     FaJsSquare,
     FaReact,
     FaJava,
+    FaLinkedinIn,
+    FaEnvelope,
 } from "react-icons/fa";
 
 const techStack = [
@@ -16,6 +18,24 @@ const techStack = [
     { stack: "JavaScript", icon: <FaJsSquare /> },
     { stack: "React", icon: <FaReact /> },
     { stack: "Java", icon: <FaJava /> },
+];
+
+export const contactStack = [
+    {
+        platform: "LinkedIn",
+        icon: <FaLinkedinIn />,
+        link: "https://www.linkedin.com/in/edlyn-evangelista/",
+    },
+    {
+        platform: "Email",
+        icon: <FaEnvelope />,
+        link: "mailto:edlyn.evangelista@outlook.com",
+    },
+    {
+        platform: "Github",
+        icon: <FaGithub />,
+        link: "https://github.com/edlyn-e",
+    },
 ];
 
 export default techStack;

@@ -3,9 +3,44 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    &__Banner {
+        align-self: center;
+        width: 95vw;
+        justify-self: center;
+        margin-top: 5vh;
+    }
 
     &__Header {
         font-size: large;
+    }
+
+    &__Stack {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0px 40px;
+    }
+
+    &__Stack_item {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 10px;
+        margin: 10px;
+
+        h1 {
+            margin: 0px;
+            font-size: xx-large;
+        }
+
+        p {
+            margin: 0px;
+        }
     }
 }

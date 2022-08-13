@@ -1,12 +1,40 @@
-import React from "react";
+// styling
 import styles from "./Contact.module.scss";
-import Form from "../Form/Form";
+
+// local imports
+import paperplane from "./../../assets/paperplane.png";
+import { contactStack } from "../../server/techStack";
 
 const Contact = () => {
     return (
-        <div className={styles.Contact}>
-            <h1 className={styles.Contact__Header}>Form will go here... </h1>
-            <Form />
+        <div main className={styles.Contact}>
+            <img
+                src={paperplane}
+                alt="paper plane banner"
+                className={styles.Contact__Banner}
+            />
+
+            <h1 className={styles.Contact__Header}>Let's get in touch!</h1>
+
+            <p>You can find me on these platforms.</p>
+
+            <section className={styles.Contact__Stack}>
+                {contactStack.map((contact) => {
+                    return (
+                        <section
+                            className={styles.Contact__Stack_item}
+                            key={contact.platform}
+                        >
+                            <h1>
+                                <a href={contact.link} target="#blank">
+                                    {contact.icon}
+                                </a>
+                            </h1>
+                            <p>{contact.platform}</p>
+                        </section>
+                    );
+                })}
+            </section>
         </div>
     );
 };

@@ -5,7 +5,7 @@ import styles from "./Nav.module.scss";
 const Nav = () => {
     return (
         <div className={styles.Nav}>
-            <NavLink to="/" className={styles.Nav__Logo}>
+            <NavLink to="/librarium" className={styles.Nav__Logo}>
                 edlyn-e
             </NavLink>
 

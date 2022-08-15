@@ -16,9 +16,9 @@ const BurgerNav = () => {
             <NavLink to="/projects" className={styles.BurgerNav__Links}>
                 Projects
             </NavLink>
-            <NavLink to="/resume" className={styles.BurgerNav__Links}>
+            {/* <NavLink to="/resume" className={styles.BurgerNav__Links}>
                 Resume
-            </NavLink>
+            </NavLink> */}
             <NavLink to="/contact-me" className={styles.BurgerNav__Links}>
                 Contact
             </NavLink>

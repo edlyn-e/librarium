@@ -1,32 +1,39 @@
-import React from "react";
-import { NavLink } from "react-router-dom";
+// styling
 import styles from "./Nav.module.scss";
 
-const Nav = () => {
-    return (
-        <div className={styles.Nav}>
-            <NavLink to="/librarium" className={styles.Nav__Logo}>
-                edlyn-e
-            </NavLink>
+// library imports
+import * as React from "react";
+import { NavLink } from "react-router-dom";
+import { useState } from "react";
+import BurgerNav from "../BurgerNav/BurgerNav";
+import { FaBars } from "react-icons/fa";
 
-            <nav className={styles.Nav__Menu}>
-                <NavLink to="/about-me" className={styles.Nav__Links}>
-                    About me
+const Nav = () => {
+    const [isDisplayed, setIsDisplayed] = useState(false);
+
+    const handleClick = () => {
+        console.log("has been clicked");
+        setIsDisplayed(!isDisplayed);
+    };
+
+    const displayMenu = () => {
+        if (isDisplayed) return <Nav />;
+        return;
+    };
+
+    return (
+        <>
+            <div className={styles.Nav}>
+                <NavLink to="/librarium" className={styles.Nav__Logo}>
+                    edlyn-e
                 </NavLink>
-                <NavLink to="/tech-stacks" className={styles.Nav__Links}>
-                    Tech Stacks
-                </NavLink>
-                <NavLink to="/projects" className={styles.Nav__Links}>
-                    Projects
-                </NavLink>
-                {/* <NavLink to="/resume" className={styles.Nav__Links}>
-                    Resume
-                </NavLink> */}
-                <NavLink to="/contact-me" className={styles.Nav__Links}>
-                    Contact
-                </NavLink>
-            </nav>
-        </div>
+
+                <span className={styles.Nav__BurgerMenu} onClick={handleClick}>
+                    <FaBars />
+                </span>
+            </div>
+            <div>{isDisplayed ? <BurgerNav /> : ""}</div>
+        </>
     );
 };
 

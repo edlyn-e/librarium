@@ -76,10 +76,8 @@ const Footer = () => {
                 </ul>
             </section>
             <section className={styles.Footer__Footnote}>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Dolorum architecto aliquid nesciunt veniam sequi laboriosam ab
-                natus id numquam. Quibusdam labore ratione delectus, officia
-                nobis quaerat sequi voluptatum doloremque et.
+                This project was built by Edlyn Evangelista with JavaScript
+                React @ 2022.
             </section>
         </div>
     );

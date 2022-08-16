@@ -8,6 +8,7 @@ import {
     FaJava,
     FaLinkedinIn,
     FaEnvelope,
+    FaSass,
 } from "react-icons/fa";
 
 const techStack = [
@@ -15,6 +16,7 @@ const techStack = [
     { stack: "Github", icon: <FaGithub /> },
     { stack: "HTML", icon: <FaHtml5 /> },
     { stack: "CSS", icon: <FaCss3Alt /> },
+    { stack: "Sass", icon: <FaSass /> },
     { stack: "JavaScript", icon: <FaJsSquare /> },
     { stack: "React", icon: <FaReact /> },
     { stack: "Java", icon: <FaJava /> },

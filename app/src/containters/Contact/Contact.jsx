@@ -25,12 +25,10 @@ const Contact = () => {
                             className={styles.Contact__Stack_item}
                             key={contact.platform}
                         >
-                            <h1>
-                                <a href={contact.link} target="#blank">
-                                    {contact.icon}
-                                </a>
-                            </h1>
-                            <p>{contact.platform}</p>
+                            <a href={contact.link} target="#blank">
+                                <h1>{contact.icon}</h1>
+                                <p>{contact.platform}</p>
+                            </a>
                         </section>
                     );
                 })}

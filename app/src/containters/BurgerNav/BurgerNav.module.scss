@@ -1,18 +1,27 @@
+@import "./../../assets/palette.scss";
+
 .BurgerNav {
-    background: rgb(145, 162, 145);
+    background: $earth-yellow;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 10px;
+    position: absolute;
+    width: 100vw;
+    max-width: 100%;
+
+    overflow-x: hidden;
 
     &__Links {
-        margin: 5px;
-        padding: 8px 15px;
+        padding: 10px;
+        width: 100%;
+        text-align: center;
         text-decoration: none;
         color: black;
+        font-family: $header-font;
     }
 
     &__Links:hover {
-        background-color: grey;
+        background-color: $camel;
+        color: white;
     }
 }

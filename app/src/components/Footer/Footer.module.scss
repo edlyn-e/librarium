@@ -1,4 +1,8 @@
+@import "./../../assets/palette.scss";
+
 .Footer {
+    font-family: $body-font;
+
     min-height: 20vh;
     padding: 20px;
     background-color: black;
@@ -14,6 +18,10 @@
         color: white;
         font-size: large;
         margin: 5px;
+    }
+
+    a:hover {
+        color: $earth-yellow;
     }
 
     &__Section {
@@ -34,6 +42,7 @@
     &__Footnote {
         min-width: 80vw;
         text-align: center;
+        margin-top: 20px;
     }
 }
 

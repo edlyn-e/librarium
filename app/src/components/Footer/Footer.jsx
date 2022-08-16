@@ -25,7 +25,7 @@ const Footer = () => {
 
             <section className={styles.Footer__Section}>
                 <ul>
-                    <li>My most recent projects: </li>
+                    <li>My most recent projects</li>
                     <li>Calculator &#183; JavaScript Calculator</li>
                     <li>Morse Code Translator &#183; JavaScript Translator</li>
                     <li>Opus Invenire &#183; Google Books API</li>

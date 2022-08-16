@@ -1,5 +1,7 @@
+@import "./../../assets/palette.scss";
+
 .Contact {
-    min-height: 68.7vh;
+    min-height: 68.9vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -7,6 +9,11 @@
     a {
         text-decoration: none;
         color: black;
+    }
+
+    p {
+        font-family: $body-font;
+        margin: 0px;
     }
 
     &__Banner {
@@ -18,6 +25,7 @@
 
     &__Header {
         font-size: large;
+        font-family: $header-font;
     }
 
     &__Stack {
@@ -38,9 +46,12 @@
             margin: 0px;
             font-size: xx-large;
         }
+    }
 
+    &__Stack_item:hover {
+        a,
         p {
-            margin: 0px;
+            color: $earth-yellow;
         }
     }
 }

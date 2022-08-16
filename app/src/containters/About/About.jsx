@@ -7,11 +7,11 @@ const About = () => {
         <div className={styles.About}>
             <img src={image} alt="sketch of author" />
             <div className={styles.About__Section}>
-                <h1 className={styles.About__Header}>Heya! My name is Edlyn</h1>
+                <h1 className={styles.About__Header}>Hi! My name is Edlyn.</h1>
                 <section className={styles.About__Text}>
                     <p>
                         I'm an Arts graduate from the University of South
-                        Austrlia and a software developer in the making with
+                        Australia and a software developer in the making with
                         _nology!
                     </p>
 

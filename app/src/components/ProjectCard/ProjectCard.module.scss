@@ -1,22 +1,27 @@
+@import "./../../assets/palette.scss";
+
 .ProjectCard {
-    width: 350px;
-    margin: 10px;
+    width: 275px;
+    margin: 15px;
     padding: 30px;
     text-align: center;
-    background: rgb(237, 237, 237);
+    background: $agreeable-grey;
+
     border-radius: 12px;
 
     &__Header {
         font-size: large;
+        font-family: $header-font;
     }
 
     &__Image {
-        width: 270px;
+        width: 275px;
         object-fit: contain;
     }
 
     &__Description {
-        padding: 10px 0px;
+        padding: 5px 0px;
+        font-family: $body-font;
     }
 
     &__Links {
@@ -25,9 +30,14 @@
         display: flex;
         justify-content: space-around;
         font-size: x-large;
+
         a {
             color: black;
             text-decoration: none;
+        }
+
+        a:hover {
+            color: white;
         }
     }
 }

@@ -1,5 +1,7 @@
+@import "./../../assets/palette.scss";
+
 .About {
-    min-height: 68.7vh;
+    min-height: 68.9vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -13,9 +15,17 @@
         align-self: center;
     }
 
+    &__Header {
+        font-family: $header-font;
+    }
+
     &__Section {
         width: 450px;
         align-self: center;
+    }
+
+    &__Text {
+        font-family: $body-font;
     }
 }
 

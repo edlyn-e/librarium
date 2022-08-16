@@ -1,13 +1,20 @@
+@import "./../../assets/palette.scss";
+
 .Resume {
     min-height: 66.7vh;
 
     &__Header {
         text-align: center;
+        font-family: $header-font;
     }
 
     &__Work_Experience {
         margin: 0vh auto;
-        width: 900px;
+        max-width: 900px;
+
+        h2 {
+            font-family: $header-font;
+        }
     }
 
     &__Experience {
@@ -23,5 +30,6 @@
 
     &__Experience_Text {
         margin: 0vh 2vh;
+        font-family: $body-font;
     }
 }

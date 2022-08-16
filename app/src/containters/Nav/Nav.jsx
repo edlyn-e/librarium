@@ -32,7 +32,9 @@ const Nav = () => {
                     <FaBars />
                 </span>
             </div>
-            <div>{isDisplayed ? <BurgerNav /> : ""}</div>
+            <nav className={styles.Nav__Menu}>
+                {isDisplayed ? <BurgerNav handleClick={handleClick} /> : ""}
+            </nav>
         </>
     );
 };

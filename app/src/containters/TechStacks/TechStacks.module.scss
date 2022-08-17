@@ -6,6 +6,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    max-width: 900px;
+    margin: auto;
 
     &__Header {
         font-size: x-large;
@@ -28,7 +30,7 @@
 
         h1 {
             margin: 0px;
-            font-size: xx-large;
+            font-size: 40px;
         }
 
         p {

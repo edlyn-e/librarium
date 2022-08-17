@@ -21,19 +21,6 @@ As this is a recreation, the criteria will remain the same:
     -   Github profile
     -   LinkedIn profile
 
-<!-- ### Checklist and Mindmap
-
--   Create a firestore database of project data with these keys:
-
-    -   Project name
-    -   Description
-    -   Tech stacks
-    -   Links to code source and live version
-
--   Create a form to update the database when new projects are created and developed with inputs for the keys listed above. -->
-
-_more coming soon..._
-
 ### Sketches
 
 <img src="./assets/Self portrait.png">

@@ -8,6 +8,12 @@ const About = () => {
             <img src={image} alt="sketch of author" />
             <div className={styles.About__Section}>
                 <h1 className={styles.About__Header}>Hi! My name is Edlyn.</h1>
+
+                <section className={styles.About__Subheading}>
+                    <p>noun /ed-lin e-vang-he-lis-ta/</p>
+                    <p>Junior Software Developer @ _nology</p>
+                </section>
+
                 <section className={styles.About__Text}>
                     <p>
                         I'm an Arts graduate from the University of South

@@ -9,7 +9,11 @@ import {
     FaLinkedinIn,
     FaEnvelope,
     FaSass,
+    FaAws,
 } from "react-icons/fa";
+import { SiFirebase, SiMysql, SiSpring, SiSpringboot } from "react-icons/si";
+
+// AWS
 
 const techStack = [
     { stack: "Git", icon: <FaGitAlt /> },
@@ -19,7 +23,12 @@ const techStack = [
     { stack: "Sass", icon: <FaSass /> },
     { stack: "JavaScript", icon: <FaJsSquare /> },
     { stack: "React", icon: <FaReact /> },
+    { stack: "Firebase", icon: <SiFirebase /> },
     { stack: "Java", icon: <FaJava /> },
+    { stack: "MySQL", icon: <SiMysql /> },
+    { stack: "Spring", icon: <SiSpring /> },
+    { stack: "SpringBoot", icon: <SiSpringboot /> },
+    { stack: "AWS", icon: <FaAws /> },
 ];
 
 export const contactStack = [

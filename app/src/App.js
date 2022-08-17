@@ -5,7 +5,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Nav from "./containters/Nav/Nav";
 import About from "./containters/About/About";
 import Footer from "./components/Footer";
-import Landing from "./containters/Landing/Landing";
 import { TechStacks } from "./containters/TechStacks/TechStacks";
 import Projects from "./containters/Projects";
 import Contact from "./containters/Contact/Contact";
@@ -20,8 +19,8 @@ function App() {
             <BrowserRouter>
                 <Nav />
                 <Routes>
-                    <Route path="/librarium" element={<Landing />} />
-                    <Route path="/about-me" element={<About />} />
+                    <Route path="/librarium" element={<About />} />
+                    {/* <Route path="/about-me" element={<About />} /> */}
                     <Route path="/tech-stacks" element={<TechStacks />} />
                     <Route path="/projects" element={<Projects />} />
                     <Route path="/contact-me" element={<Contact />} />

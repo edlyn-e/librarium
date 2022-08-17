@@ -8,13 +8,6 @@ const BurgerNav = ({ handleClick }) => {
     return (
         <div className={styles.BurgerNav}>
             <NavLink
-                to="/about-me"
-                className={styles.BurgerNav__Links}
-                onClick={handleClick}
-            >
-                About me
-            </NavLink>
-            <NavLink
                 to="/tech-stacks"
                 className={styles.BurgerNav__Links}
                 onClick={handleClick}

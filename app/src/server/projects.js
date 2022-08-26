@@ -18,7 +18,10 @@ const projectList = [
             "A project that recreates a calculator based on an image of choice capable of handling basic mathematical equations.",
         image: "https://github.com/edlyn-e/calculator/blob/main/calculatorApp.png?raw=true",
         techStacks: ["HTML", "Sass", "CSS", "JavaScript"],
-        links: { code: "https://github.com/edlyn-e/calculator", live: "" },
+        links: {
+            code: "https://github.com/edlyn-e/calculator",
+            live: "https://edlyn-e.github.io/calculator/",
+        },
     },
     {
         // * MORSE TRANSLATOR * //
@@ -51,7 +54,10 @@ const projectList = [
             "Referring to a simple aesthetic, this project focusses on using React and Firestore to create an e-commerce website complete with a functioning cart",
         image: "https://github.com/edlyn-e/shibui/blob/main/assets/header2.png?raw=true",
         techStacks: ["JavaScript", "Sass", "React"],
-        links: { code: "https://github.com/edlyn-e/shibui", live: "" },
+        links: {
+            code: "https://github.com/edlyn-e/shibui",
+            live: "https://github.com/edlyn-e/shibui",
+        },
     },
 ];
 

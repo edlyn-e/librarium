@@ -51,7 +51,7 @@ const projectList = [
         // * ECOMMERCE WEBSITE * //
         title: "Shibui",
         description:
-            "Referring to a simple aesthetic, this project focusses on using React and Firestore to create an e-commerce website complete with a functioning cart",
+            "Referring to a simple aesthetic, this project focusses on using React and Firestore to create an e-commerce website complete with a functioning cart. Due to Firestore constraits, the live version is not available for view.",
         image: "https://github.com/edlyn-e/shibui/blob/main/assets/header2.png?raw=true",
         techStacks: ["JavaScript", "Sass", "React"],
         links: {

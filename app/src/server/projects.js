@@ -44,7 +44,7 @@ const projectList = [
         techStacks: ["JavaScript", "Sass", "React"],
         links: {
             code: "https://github.com/edlyn-e/opus-invenire/blob/main/README.md",
-            live: "",
+            live: "https://edlyn-e.github.io/opus-invenire/",
         },
     },
     {

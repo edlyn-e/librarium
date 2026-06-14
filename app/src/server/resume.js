@@ -106,10 +106,10 @@ export const workExperience = [
 
 export const education = [
     {
-        educationProvider: "University of Adelaide",
-        logo: "https://www.adelaide.edu.au/brand/sites/default/files/styles/ua_landscape/public/media/images/2021-09/uoalogonavybg.png?h=c4dd2c7b&itok=836Wuw_K",
-        degree: "Bachelor of Commerce",
-        duration: "Mar 2021 to (currently deffered)",
+        educationProvider: "Adelaide University",
+        logo: "https://logos-world.net/wp-content/uploads/2024/10/Adelaide-University-Symbol.png",
+        degree: "Bachelor of Psychology",
+        duration: "2024 to 2027",
         id: "001",
     },
     {

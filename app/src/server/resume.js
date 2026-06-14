@@ -31,7 +31,7 @@ export const workExperience = [
     {
         position: "Junior Software Developer",
         company: "_nology",
-        duration: "Jun 2022 to present",
+        duration: "Jun 2022 to Sep 2022",
         logo: "https://avatars.githubusercontent.com/u/43138473?s=200&v=4",
         responsibilities: [
             "Full-time training with expert coaches covering key areas of programming including concepts in the following languages: HTML, CSS, SCSS, JavaScript, React, Java, Microservices, Google Cloud Platform, Testing strategy, and Agile projects.",
